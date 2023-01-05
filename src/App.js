@@ -10,7 +10,7 @@ function App() {
         <>
             <img src={require("./assets/ezgif-2-30aa04409b.gif")} alt=""/>
             <Routes>
-                <Route path="/flatUI/#/" element={<Home/>}/>
+                <Route path="/" element={<Home/>}/>
                 <Route path={"/flatUI/#/palette/:nameId"} element={<Palette/>}/>
                 <Route path="/flatUI/*" element={<Home/>}/>
             </Routes>
