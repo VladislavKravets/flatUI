@@ -6,7 +6,7 @@ function PaletteHeader(props) {
     return (
         <div className="palette-header">
             <div>
-                <a href="/"> {"← Back"} </a>
+                <a href="#/"> {"← Back"} </a>
             </div>
             <div className="drop-button">
                 <Select

@@ -15,7 +15,7 @@ class Home extends Component {
                         {
                             colorData.map((item, index) => {
                                 return <>
-                                    <a href={"/palette/" + item.id}>
+                                    <a href={"#/palette/" + item.id}>
                                         <Card onClick={"/palette/" + item.id} key={index} name={item.name} color={item.colors} emojis={item.emojis}/>
                                     </a>
                                 </>
